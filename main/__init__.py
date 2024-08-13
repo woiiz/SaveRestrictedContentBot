@@ -18,7 +18,7 @@ if API_ID is None:
     print("API_ID is not provided.")
 API_HASH = config("API_HASH", default=None)
 BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
+SESSION = config("b215ecf4e58fc289ca33dbc97d875ffe", default=None)
 FORCESUB = config("FORCESUB", default=None)
 AUTH = config("AUTH", default=None, cast=int)
 
